@@ -1,0 +1,395 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="ru" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="ru" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Зарядная станция и АКБ &mdash; Документация Geoscan Lite rc</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script type="text/javascript" src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/style.css" type="text/css" />
+    <link rel="index" title="Алфавитный указатель" href="genindex.html" />
+    <link rel="search" title="Поиск" href="search.html" />
+    <link rel="next" title="Использование Geoscan Planner" href="planner.html" />
+    <link rel="prev" title="Настройка фотоаппарата" href="camera.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html">
+          
+
+          
+            
+            <img src="_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.9
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Содержание:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="reference.html">Общие сведения</a></li>
+<li class="toctree-l1"><a class="reference internal" href="precautions.html">Правила безопасности</a></li>
+<li class="toctree-l1"><a class="reference internal" href="uav.html">БВС</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nsu.html">Наземная станция управления</a></li>
+<li class="toctree-l1"><a class="reference internal" href="catapult.html">Пусковая установка</a></li>
+<li class="toctree-l1"><a class="reference internal" href="camera.html">Настройка фотоаппарата</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Зарядная станция и АКБ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">Техника безопасности</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">Предварительные настройки зарядного устройства</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">Зарядка АКБ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#lipo">Рекомендации по использованию литий-полимерной (LiPo) АКБ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">Проверка исправности АКБ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id6">Хранение и разряд</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id7">Утилизация АКБ</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="planner.html">Использование Geoscan Planner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="launch.html">Запуск</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Geoscan Lite</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Зарядная станция и АКБ</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/charger.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="id1">
+<h1>Зарядная станция и АКБ<a class="headerlink" href="#id1" title="Ссылка на этот заголовок">¶</a></h1>
+<table border="1" class="docutils" id="id11">
+<caption><span class="caption-text"><strong>Характеристики АКБ</strong></span><a class="headerlink" href="#id11" title="Постоянная ссылка на таблицу">¶</a></caption>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Гарантированное количество циклов заряд-разряд</td>
+<td>50</td>
+</tr>
+<tr class="row-even"><td>Верхний предел заряда</td>
+<td>16,8 В</td>
+</tr>
+<tr class="row-odd"><td>Нижний предел разряда</td>
+<td>13,2 В</td>
+</tr>
+<tr class="row-even"><td>Ток заряда</td>
+<td>&lt;10 А</td>
+</tr>
+<tr class="row-odd"><td>Количество ячеек</td>
+<td>4</td>
+</tr>
+<tr class="row-even"><td>Емкость</td>
+<td>10 000 мА·ч</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="id2">
+<h2>Техника безопасности<a class="headerlink" href="#id2" title="Ссылка на этот заголовок">¶</a></h2>
+<p><strong>АКБ</strong></p>
+<ul class="simple">
+<li>Не допускайте разгерметизации и деформации элементов АКБ (не ронять, не прокалывать).</li>
+<li>Не допускайте нагрева АКБ свыше 60 градусов.</li>
+<li>Не допускайте перезаряда АКБ (свыше 16,8В); Не допускайте разряда АКБ ниже 12В.</li>
+<li>Не храните АКБ в разряженном состоянии.</li>
+<li>Не заряжайте токами, превышающими нагрузочную способность (не более 100% от емкости, для продления срока службы рекомендуется заряжать 50% током от емкости). Превышение допустимого тока заряда приведет к нагреву АКБ свыше 60 градусов.</li>
+<li>При длительном хранении (месяц и более) необходимо перевести АКБ в режим <a class="reference external" href="charger.html#id7">Хранение</a>.</li>
+</ul>
+<div class="admonition attention">
+<p class="first admonition-title">Внимание</p>
+<p class="last">Несоблюдение выше перечисленных указаний может привести к полному выходу из строя АКБ или к возгоранию.</p>
+</div>
+<p><strong>Зарядная станция</strong></p>
+<ul class="simple">
+<li>Перед подключением АКБ к зарядному устройству необходимо предварительно включить зарядное устройство.</li>
+<li>Перед каждым использованием необходимо производить осмотр кабелей и разъемов на предмет повреждений.</li>
+<li>Запрещается эксплуатировать зарядное устройство под прямыми солнечными лучами.</li>
+<li>Запрещается эксплуатировать зарядное устройство без присмотра.</li>
+</ul>
+<p>С завода комплекс поставляется с настроенным зарядным устройством. Если настройки сбились - следуйте инструкции, чтобы их восстановить.</p>
+</div>
+<div class="section" id="id3">
+<h2>Предварительные настройки зарядного устройства<a class="headerlink" href="#id3" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Настройка зарядного устройства осуществляется выбором соответствующего пункта меню с помощью сенсорного экрана. При включении зарядного устройства вы увидите следующий экран:</p>
+<div class="figure align-center" id="id12">
+<a class="reference internal image-reference" href="_images/charge1.png"><img alt="_images/charge1.png" src="_images/charge1.png" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-text">Главное меню</span></p>
+</div>
+<p>Если по умолчанию на зарядном устройстве установлен английский язык, зайдите в пункт меню <strong>Uset</strong>:</p>
+<div class="figure align-center" id="id13">
+<a class="reference internal image-reference" href="_images/lang1.png"><img alt="_images/lang1.png" src="_images/lang1.png" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-text">Настройки</span></p>
+</div>
+<p>Выберите <strong>Language</strong>:</p>
+<div class="figure align-center" id="id14">
+<a class="reference internal image-reference" href="_images/lang2.png"><img alt="_images/lang2.png" src="_images/lang2.png" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-text">Язык</span></p>
+</div>
+<p>Установите <strong>Русский язык</strong>.</p>
+<p><strong>Настройка параметров зарядки АКБ</strong></p>
+<p>В разделе <strong>Тип</strong> выберите <strong>LiPo</strong>:</p>
+<div class="figure align-center" id="id15">
+<a class="reference internal image-reference" href="_images/charge2.png"><img alt="_images/charge2.png" src="_images/charge2.png" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-text">Тип</span></p>
+</div>
+<p>В разделе <strong>Элементы</strong> стрелками выберите <strong>4Cells</strong> <strong>14.8V</strong> и подтвердите выбор нажатием <strong>Оk</strong>:</p>
+<div class="figure align-center" id="id16">
+<a class="reference internal image-reference" href="_images/charge3.png"><img alt="_images/charge3.png" src="_images/charge3.png" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-text">Элементы</span></p>
+</div>
+<p>В разделе <strong>Режим</strong> выберите:</p>
+<ul class="simple">
+<li><strong>Баланс</strong> для заряда АКБ;</li>
+<li><strong>Хранение</strong> для перевода АКБ в режим хранения;</li>
+<li><strong>Заряд</strong> для заряда АКБ без балансировки напряжения на элементах (не рекомендуется заряжать в данном режиме);</li>
+<li><strong>Разряд</strong> для разряда АКБ;</li>
+<li><strong>Быстр.зар.</strong> для заряда повышенными токами (не рекомендуется заряжать в данном режиме);</li>
+<li><strong>Проверка</strong> для проверки состояния АКБ.</li>
+</ul>
+<div class="figure align-center" id="id17">
+<a class="reference internal image-reference" href="_images/charge4.png"><img alt="_images/charge4.png" src="_images/charge4.png" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-text">Режим</span></p>
+</div>
+<p>В разделе <strong>Ток</strong> выберите <strong>5.0А</strong> в верхней шкале (ток заряда), <strong>3.0А</strong> в нижней шкале (ток разряда) и подтвердите выбор нажатием <strong>Оk</strong>:</p>
+<div class="figure align-center" id="id18">
+<a class="reference internal image-reference" href="_images/charge5.png"><img alt="_images/charge5.png" src="_images/charge5.png" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-text">Ток</span></p>
+</div>
+<p>Перейдите в раздел <strong>Настройки</strong>:</p>
+<div class="figure align-center" id="id19">
+<a class="reference internal image-reference" href="_images/charge7.png"><img alt="_images/charge7.png" src="_images/charge7.png" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-text">Настройки</span></p>
+</div>
+<p>В разделе <strong>Настройки</strong> установите <strong>Отсечка по времени</strong> <strong>200 Minute</strong> и подтвердите нажатием <strong>Оk</strong>:</p>
+<div class="figure align-center" id="id20">
+<a class="reference internal image-reference" href="_images/charge6.png"><img alt="_images/charge6.png" src="_images/charge6.png" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-text">Отсечка по времени</span></p>
+</div>
+<p>В разделе <strong>Настройки</strong> установите <strong>Отсечка по емкости</strong> <strong>10.0 Ah</strong> и подтвердите нажатием <strong>Оk</strong>:</p>
+<div class="figure align-center" id="id21">
+<a class="reference internal image-reference" href="_images/charge8.png"><img alt="_images/charge8.png" src="_images/charge8.png" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-text">Отсечка по емкости</span></p>
+</div>
+</div>
+<div class="section" id="id4">
+<h2>Зарядка АКБ<a class="headerlink" href="#id4" title="Ссылка на этот заголовок">¶</a></h2>
+<ol class="arabic simple">
+<li>Подключите кабель сети переменного тока к ЗУ.</li>
+<li>Вставьте адаптер кабеля в розетку.</li>
+<li>Подключите балансировочный кабель к заряжаемой АКБ.</li>
+<li>Подключите разъем силового кабеля к заряжаемой АКБ.</li>
+<li>Проверьте <a class="reference external" href="charger.html#id3">настройки ЗУ</a> и нажмите <strong>Старт</strong>, чтобы запустить процесс зарядки.</li>
+<li>После окончания заряда отключите АКБ в обратном порядке.</li>
+</ol>
+<div class="figure align-center" id="id22">
+<a class="reference internal image-reference" href="_images/charge9.png"><img alt="_images/charge9.png" src="_images/charge9.png" style="width: 400px;" /></a>
+<p class="caption"><span class="caption-text">Старт заряда</span></p>
+</div>
+</div>
+<div class="section" id="lipo">
+<h2>Рекомендации по использованию литий-полимерной (LiPo) АКБ<a class="headerlink" href="#lipo" title="Ссылка на этот заголовок">¶</a></h2>
+<p><strong>Правила эксплуатации АКБ</strong></p>
+<p>Во избежание аварийных ситуаций, связанных с нештатной работой АКБ, необходимо соблюдать ряд следующих правил:</p>
+<ul class="simple">
+<li>если полеты проходят при температуре воздуха ниже 0 градусов, перед полетом необходимо хранить АКБ в теплом месте и не допускать ее охлаждения. Следует помнить, что на холоде литий-полимерные АКБ могут терять до 30% своей емкости, данное обстоятельство необходимо учитывать при построении полетного задания;</li>
+<li>если полеты проходят при температуре воздуха выше 25 градусов, перед полетом необходимо хранить АКБ в прохладном, защищенном от попадания прямых солнечных лучей месте. После полета нельзя сразу заряжать АКБ, необходимо дать ей остыть. Заряжать также необходимо в прохладном, защищенном от попадания прямых солнечных лучей месте.</li>
+</ul>
+</div>
+<div class="section" id="id5">
+<h2>Проверка исправности АКБ<a class="headerlink" href="#id5" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Для проверки исправности состояния АКБ рекомендуется провести полный цикл заряд/разряд для АКБ.</p>
+<ol class="arabic simple">
+<li><a class="reference external" href="charger.html#id4">Зарядите АКБ</a>.</li>
+<li>Разрядите АКБ, сменив режим на <strong>Разряд</strong>, до напряжения 13,5 В.</li>
+<li>Повторно зарядите АКБ.</li>
+</ol>
+</div>
+<div class="section" id="id6">
+<h2>Хранение и разряд<a class="headerlink" href="#id6" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Режим хранения необходим, если предполагается не использовать АКБ более 14 дней.</p>
+<p>Для перевода АКБ в режим хранения необходимо сменить режим <strong>Баланс</strong> на <strong>Хранение</strong>, проверив правильность количества ячеек на экране (4 Cells), и запустить его нажатием кнопки <strong>Старт</strong>.</p>
+<p>Хранить в сухом прохладном месте, исключающем воздействие прямых солнечных лучей, при температуре от 5 до 25&nbsp;°С и относительной влажности не более 80%, без конденсации.</p>
+<p>Оптимальная температура — от 5 до 10&nbsp;°С.</p>
+<p>Оптимальный уровень напряжения АКБ при помещении батареи на хранение: 15,4&nbsp;В.</p>
+<p>Срок хранения - 1 год.</p>
+</div>
+<div class="section" id="id7">
+<h2>Утилизация АКБ<a class="headerlink" href="#id7" title="Ссылка на этот заголовок">¶</a></h2>
+<div class="admonition attention">
+<p class="first admonition-title">Внимание</p>
+<p class="last">Не выбрасывайте LiPo батареи в контейнеры для бытового мусора.
+Неправильная утилизация отработавших источников питания может представлять опасность для окружающей среды.
+Утилизируйте LiPo батареи в соответствии с местным законодательством, сдавая их в ближайшие пункты переработки.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="planner.html" class="btn btn-neutral float-right" title="Использование Geoscan Planner" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="camera.html" class="btn btn-neutral float-left" title="Настройка фотоаппарата" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Geoscan
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
